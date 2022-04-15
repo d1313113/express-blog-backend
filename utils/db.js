@@ -1,11 +1,11 @@
 /*
  * @Author: Tusi
  * @Date: 2019-04-09 16:05:13
- * @LastEditors: Tusi
- * @LastEditTime: 2021-05-27 09:24:43
+ * @LastEditors: Cumelmell
+ * @LastEditTime: 2022-04-15 13:50:08
  * @Description: db helpers
  */
-const mysql = require("mysql");
+const mysql = require("mysql2");
 const config = require("../config");
 const errcode = require('../utils/errcode');
 
